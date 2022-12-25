@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "195133697068",
+    "project_id": "cookeat-app",
+    "storage_bucket": "cookeat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195133697068:android:a277254ee8af2140a1f589",
+        "android_client_info": {
+          "package_name": "demessance.fr.cookeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195133697068-r73inn2aa8cjh77p40eb2260fjktuafv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEG_Kv2MLlv-6M7cKR-text12SWd3Qr2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195133697068-r73inn2aa8cjh77p40eb2260fjktuafv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "195133697068-i7v0p6ssipajc3b8heodjbv3g9die10p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fr.demessance.cookeat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195133697068:android:0896379cf0db8d9ca1f589",
+        "android_client_info": {
+          "package_name": "fr.demessance.cookeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195133697068-r73inn2aa8cjh77p40eb2260fjktuafv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEG_Kv2MLlv-6M7cKR-text12SWd3Qr2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195133697068-r73inn2aa8cjh77p40eb2260fjktuafv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "195133697068-i7v0p6ssipajc3b8heodjbv3g9die10p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fr.demessance.cookeat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

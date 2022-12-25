@@ -1,0 +1,6 @@
+package demessance.fr.cookeat
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
