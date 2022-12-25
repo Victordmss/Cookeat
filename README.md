@@ -1,16 +1,14 @@
-# cookeat
-
-A new Flutter project.
+# cookeat 
+A Flutter application.
 
 ## Getting Started
+The idea is to create a flutter application allowing any user to have his **own personal recipe management account**. Each user will be able to list his **favorite recipes** :fork_and_knife: on his Cookeat menu. He will also be able to view nutritional and statistical information about his recipes :curry:, ingredients :bread: and food preferences :pizza:. Each user will be able to order a random recipe corresponding to a specific meal (breakfast :coffee:, lunch :hamburger:, dinner :ramen:...)
 
-This project is a starting point for a Flutter application.
+## Cookeat 
 
-A few resources to get you started if this is your first Flutter project:
+## In progress
+--> Creation of recipes on your own account
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Future features
+--> Random recipe proposal depending on the meal requested
+--> Ingredient management (recipe, calories, etc.)
