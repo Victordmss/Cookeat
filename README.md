@@ -25,7 +25,9 @@ All the backend authentification process is used with firebase auth. User's data
 <img src=screenshot/successful_inscription.png width=200>
 A pop up will tell when the registration is over. If there is a problem, it will describe the error to help the user to correct it ✔️.
 
-<img src=screenshot/home_page.png width=200>
+
+<br><img src=screenshot/home_page.png width=200>
+<br><br>
 When the user is connected, he will be directed to the Cookeat Home Page 🏠. This page allows him to use all the Cookeat features :tada:.
 
 ## In progress
