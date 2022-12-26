@@ -1,4 +1,4 @@
-# cookeat 
+# Cookeat 
 A Flutter application.
 
 ## Getting Started
