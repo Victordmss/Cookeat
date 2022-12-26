@@ -9,7 +9,7 @@ The idea is to create a flutter application allowing any user to have his **own 
 <img src=screenshot/connexion_error.png width=250>
 <img src=screenshot/forgotpass_screen.png width=250>
 <img src=screenshot/register_screen.png width=250>
-<img src=screenshot/firebase_auth.png width=250>
+<img src=screenshot/firebase_auth.png width=500>
 <img src=screenshot/successful_inscription.png width=250>
 <img src=screenshot/home_page.png width=250>
 
