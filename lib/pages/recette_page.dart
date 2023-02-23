@@ -1,7 +1,10 @@
 import 'package:cookeat/pages/recette_data_page.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import '../main.dart';
 import 'ajout_recette_page.dart';
 
 class Recette {
@@ -95,11 +98,32 @@ class _RecetteListState extends State<RecetteList> {
           children: snapshot.data!.docs.map((DocumentSnapshot document) {
             Map<String, dynamic> data = document.data()! as Map<String, dynamic>;
             return GestureDetector(
+              onLongPress :() {
+                showDialog(context: context, builder: (context) {
+                  return AlertDialog(
+                    title: Text('Supprimer ${data["nom"]} ?'),
+                    actions: <Widget>[
+                      TextButton(
+                        onPressed: () => Navigator.pop(context, 'Cancel'),
+                        child: const Text('Cancel'),
+                      ),
+                      TextButton(
+                        onPressed: () {
+                          print("delete");
+                          Navigator.pop(context, 'OK');
+
+                          },
+                        child: const Text('OK'),
+                      ),
+                    ],
+                  );
+                });
+                },
               onTap : () {
                 Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (BuildContext context) {
-                        return const RecetteDataPage();
+                      builder: (context) {
+                        return RecetteDataPage(data: data);
                       },
                       fullscreenDialog: true,
                     )

@@ -184,8 +184,8 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
                   Row(
                     children: [
                       ImageInputBox(),
-                      TypeInputBox(),
-                      LevelInputBox()
+                      typeInputBox(),
+                      levelInputBox()
                   ],
                   ),
                   const Padding(padding: EdgeInsets.symmetric(vertical: 20)),
@@ -194,15 +194,15 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
                   Row(
                     children: [
                       const Padding(padding: EdgeInsets.symmetric(horizontal: 0)),
-                      TimeInputBox(),
+                      timeInputBox(),
                       const Padding(padding: EdgeInsets.symmetric(horizontal: 20)),
-                      QuantityInputBox(),
+                      quantityInputBox(),
                     ],
                   ),
                   const Padding(padding: EdgeInsets.symmetric(vertical: 20)),
-                  EtapeMenuBox(),
+                  etapeMenuBox(),
                   const Padding(padding: EdgeInsets.symmetric(vertical: 5)),
-                  EtapeDynamicInputBox(),
+                  etapeDynamicInputBox(),
                 ],
               )
           ),
@@ -210,7 +210,7 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
       );
   }
 
-  SizedBox EtapeDynamicInputBox() {
+  SizedBox etapeDynamicInputBox() {
     return SizedBox(
                     child:
                       ListView.builder(
@@ -265,7 +265,7 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
                 );
   }
 
-  Row EtapeMenuBox() {
+  Row etapeMenuBox() {
     return Row(
                   children: [
                     Padding(
@@ -287,7 +287,7 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
                 );
   }
 
-  Expanded QuantityInputBox() {
+  Expanded quantityInputBox() {
     return Expanded(
                       child: TextField(
                         keyboardType: TextInputType.number,
@@ -313,7 +313,7 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
                     );
   }
 
-  Expanded TimeInputBox() {
+  Expanded timeInputBox() {
     return Expanded(
                       child: TextField(
                         keyboardType: TextInputType.number,
@@ -331,7 +331,7 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
                             ),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
                             borderSide: BorderSide(color: Color.fromRGBO(183, 43, 79, 1.0)),
                           ),
                         ),
@@ -369,7 +369,7 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
                 );
   }
 
-  Padding LevelInputBox() {
+  Padding levelInputBox() {
     return Padding(
                         padding: const EdgeInsets.only(left : 20),
                         child :
@@ -420,7 +420,7 @@ class _AjoutRecettePageState extends State<AjoutRecettePage> {
                     );
   }
 
-  Padding TypeInputBox() {
+  Padding typeInputBox() {
     return Padding(
                         padding: const EdgeInsets.only(left : 20),
                         child :
