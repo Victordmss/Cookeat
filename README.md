@@ -30,8 +30,27 @@ A pop up will tell when the registration is over. If there is a problem, it will
 <br><br>
 When the user is connected, he will be directed to the Cookeat Home Page 🏠. This page allows him to use all the Cookeat features :tada:.
 
+<br>
+He can for example see all his recipes with a dynamic page :tada:.
+<img src=screenshot/recette_list.png width=200>
+
+If he wants, each user is able to add their own recipe by clicking on the add button (top right of the screen), a page will show them all the informations they need to fill in
+
+<img src=screenshot/add_recette.png width=200>
+
+
+If he fill the form, he can add the recipe and add the recipe to his account. 
+
+<img src=screenshot/add_recette_full.png width=200>
+
+
+Then, thanks to the dynamic page, he is able to see the new recipe with all its informations.
+
+<img src=screenshot/recette_added.png width=200>
+
+
 ## In progress
---> Creation of recipes on your own account
+--> Deleting of recipes on your own account
 
 ## Future features
 --> Random recipe proposal depending on the meal requested
