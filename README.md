@@ -50,7 +50,7 @@ Then, thanks to the dynamic page, he is able to see the new recipe with all its 
 
 
 ## In progress
---> Deleting of recipes on your own account
+--> Button to delete recipes of your own account
 
 ## Future features
 --> Random recipe proposal depending on the meal requested
